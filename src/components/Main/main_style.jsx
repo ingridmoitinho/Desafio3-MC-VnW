@@ -18,15 +18,21 @@ export const Section = styled.section`
   }
 
   img {
-    width: 20vw;
+    width: 25vw;
+    margin-left: 5rem;
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 4rem;
     color: #FFFFFF;
-    margin-top: 5rem;
+    margin: 5rem;
     font-family: "Inter", sans-serif;
     font-weight: 800;
+    text-align: center;
+ }
+
+ .big {
+  margin: 5rem;
  }
 
   span {
@@ -36,7 +42,20 @@ export const Section = styled.section`
   .bigmac {
     width: 6vw;
     margin: 2rem;
+    margin-top: 0;
   }
+
+  @media screen and (min-width: 300px) and (max-width: 768px) {
+   
+    h1 {
+        font-size: 5vw;
+    }
+
+.bigmac {
+    width: 10vw;
+    margin-top: 0;
+  }
+}
 
 `;
 
@@ -92,4 +111,22 @@ export const Card = styled.div`
     margin: 1rem;
 
  }
+
+ @media screen and (min-width: 300px) and (max-width: 768px) {
+  width: 30vw;
+  text-align: center;
+  height: 20vh;
+
+  h3 {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+ }
+
+  button {
+    border: none;
+    width: 15vw;
+    height: 5vh;
+ }
+}
 `;

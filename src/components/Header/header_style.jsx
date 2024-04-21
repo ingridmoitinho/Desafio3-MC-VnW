@@ -58,4 +58,34 @@ export const Header = styled.header`
     font-weight: 800;
   }
 
+  @media screen and (min-width: 300px) and (max-width: 768px) {
+  
+ .mc {
+    height: 3rem;
+    margin: 2rem;
+  }
+  .app {
+  width: 15vw;
+  }
+  
+ h3 {
+    font-size: 12px;
+    font-weight: 300;
+ }
+ .mequi {
+    background-color: #FFC72C;
+    width: 20vw;
+    height: 10vh;
+  }
+
+ section img {
+    width: 2rem;
+  }
+
+ .mequi h3 {
+    font-size: 12px;
+    margin-top: 1rem;
+    margin-left: 5px;
+  }
+  }
 `;

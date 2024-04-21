@@ -16,7 +16,7 @@ function Main() {
   return (
     <main>
       <S.Section>
-        <div>
+        <div className="big">
           <img src={bigmac} alt="" />
           <h1>BATEU AQUELA <span>#FOME</span> DE <span>MÉQUI</span>?</h1>
             

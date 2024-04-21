@@ -23,4 +23,22 @@ export const Footer = styled.section`
     margin-top: 1rem;
   }
 
+  @media screen and (min-width: 300px) and (max-width: 768px) {
+
+  .mc {
+   display: flex;
+   justify-content: space-around;
+   width: 40vw;
+  }
+
+  p {
+    font-size: 10px;
+    margin-top: 1rem;
+  }
+
+  .app  {
+     width: 50vw;
+   
+  }
+  }
   `;

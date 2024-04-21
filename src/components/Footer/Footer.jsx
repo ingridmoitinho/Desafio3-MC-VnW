@@ -8,17 +8,18 @@ function Footer() {
   return (
     <S.Footer>
     
-      <div className="mc">
-      <img  src={logo} alt="" />
-      <p>© McDonald’s 2024</p>
-      </div>
-      
-      <div className="app">
-      <img src={Google} alt="" />
-      <img src={App} alt="" />
-      </div>
-      
-    </S.Footer>
+    <div className="mc">
+    <img  src={logo} alt="" />
+    <p>© McDonald’s 2024</p>
+    </div>
+    
+    <div className="app">
+    <img src={Google} alt="" />
+    <img src={App} alt="" />
+    </div>
+  </S.Footer>
+    
+     
   );
 }
 

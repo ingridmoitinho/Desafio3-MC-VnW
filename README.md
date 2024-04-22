@@ -4,7 +4,7 @@ Fiz esse projeto no Modulo 2 do curso de Desenvolvimento Web do Vai na Web.
 
 ## Tecnologias 💻
 HTML & CSS
-React
+ReactJS
 
 ```
 Visual Studio Code
